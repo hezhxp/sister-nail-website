@@ -1,10 +1,12 @@
 import './App.css'
+import Navbar from './components/Navbar'
 
 function App() {
 
   return (
-    <div className="App">
-      <h1>Welcome to Dorilicious</h1>
+    <div>
+      <Navbar />
+
     </div>
   )
 }
